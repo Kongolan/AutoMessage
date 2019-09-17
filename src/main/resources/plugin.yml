@@ -4,7 +4,13 @@ author: ELCHILEN0
 description: Schedule easily configurable broadcasts!
 website: http://www.novuscraft.org
 main: com.TeamNovus.AutoMessage.AutoMessage
+api-version: 1.14
 commands:
    automessage:
      description: Main command for all AutoMessage commands
      aliases: [automsg, am]
+   broadcast:
+    aliases: [b]
+    description: Broadcast an automessage to everyone
+    usage: /automessage broadcast <list> <index>
+    permission: automessage.broadcast
